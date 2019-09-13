@@ -1,5 +1,3 @@
-import com.sun.scenario.animation.shared.AnimationAccessor;
-
 public class Animal {
     private String name;
     private Boolean is_asleep;

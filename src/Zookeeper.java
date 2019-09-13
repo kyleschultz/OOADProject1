@@ -30,7 +30,7 @@ public class Zookeeper {
         }
     }
 
-    public void roam(){
+    public void letRoam(){
         for(Animal a: animals){
             System.out.println(a.getName() + " is walking around");
         }
