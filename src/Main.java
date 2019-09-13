@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-    	ZooKeeper Zoe = new ZooKeeper();
+    	Zookeeper Zoe = new Zookeeper();
 
     	Feline Frank = new Feline("Frank");
     	Feline Fiona = new Feline("Fiona");
