@@ -8,6 +8,10 @@ public class Zookeeper {
         animals = new LinkedList<Animal>();
     }
 
+    public void addAnimal(Animal a) {
+        animals.add(a);
+    }
+
     public void wake() {
         for (Animal a: animals){
             System.out.println(a.setAsleep(false));
@@ -17,6 +21,12 @@ public class Zookeeper {
     public void rollCall() {
         for(Animal a: animals){
             System.out.println(a.makeNoise());
+        }
+    }
+
+    public void roam(){
+        for(Animal a: animals){
+            System.out.println(a.getName() + " is walking around");
         }
     }
 }
