@@ -24,9 +24,21 @@ public class Zookeeper {
         }
     }
 
+    public void feed(){
+        for(Animal a: animals){
+            System.out.println(a.eat());
+        }
+    }
+
     public void roam(){
         for(Animal a: animals){
             System.out.println(a.getName() + " is walking around");
+        }
+    }
+
+    public void closeZoo(){
+        for(Animal a: animals){
+            System.out.println(a.setAsleep(true));
         }
     }
 }
