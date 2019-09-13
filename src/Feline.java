@@ -4,6 +4,10 @@ public class Feline extends Animal {
 
     }
 
+    public Feline(String name){
+        super(name);
+    }
+
     public String eat() {
         String name = getName();
         String result = name + " is eating Feline food";

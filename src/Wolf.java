@@ -4,6 +4,10 @@ public class Wolf extends Canine {
 
     }
 
+    public Wolf(String name){
+        super(name);
+    }
+
     @Override
     public String eat() {
         String name = getName();

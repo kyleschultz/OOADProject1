@@ -4,6 +4,10 @@ public class Canine extends Animal {
 
     }
 
+    public Canine(String name){
+        super(name);
+    }
+
     public String eat() {
         String name = getName();
         String result = name + " is eating Meat";
