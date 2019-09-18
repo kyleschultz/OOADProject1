@@ -12,6 +12,6 @@ when an animal is created that you are passing the name in.
 
 Instructions to run code:
 	From the same directory as the main.java file open the terminal. 
-To compile, type: javac main.java
-To run, type: java main
+To compile, type: javac Main.java
+To run, type: java Main
 The code will then execute and print out proper statements.
