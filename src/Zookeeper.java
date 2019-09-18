@@ -32,7 +32,7 @@ public class Zookeeper {
 
     public void letRoam(){
         for(Animal a: animals){
-            System.out.println(a.getName() + " is walking around");
+            System.out.println(a.roam());
         }
     }
 
