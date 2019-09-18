@@ -11,7 +11,7 @@ public class Wolf extends Canine {
     @Override
     public String eat() {
         String name = getName();
-        String result = name + " is eating kibble";
+        String result = name + " of " + getClass() + "" + " is eating kibble";
         return result;
     }
 

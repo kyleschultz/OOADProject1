@@ -14,27 +14,19 @@ public class Cat extends Feline{
     }
 
     public String catDoSomething(){
+        String name = getName();
         String result = "";
-        int randInt = rand.nextInt(4);
+        int randInt = rand.nextInt(3);
         switch(randInt){
             case 0:
-                result = eat();
+                result = name + " is eating fancy feast";
                 break;
             case 1:
-                result = makeNoise();
+                result = name + " says prrrr";
                 break;
             case 2:
-                if(getAsleep() == true){
-                    result = setAsleep(false);
-                    break;
-                }
-                else{
-                    result = setAsleep(true);
-                    break;
-                }
-
-            case 3:
-                result = roam();
+                name = getName();
+                result = name + " is roaming";
                 break;
             default:
                 result = "";
@@ -43,14 +35,18 @@ public class Cat extends Feline{
         return result;
     }
 
+    @Override
     public String eat() {
-        String name = getName();
-        String result = name + " is eating fancy feast";
-        return result;
+        return catDoSomething();
     }
 
+    @Override
     public String makeNoise(){
-        String noise = "Prrrr";
-        return noise;
+        return catDoSomething();
+    }
+
+    @Override
+    public String roam(){
+        return catDoSomething();
     }
 }
