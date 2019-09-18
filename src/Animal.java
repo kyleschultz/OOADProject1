@@ -26,16 +26,16 @@ public class Animal {
     public String setAsleep(Boolean asleep) {
         this.is_asleep = asleep;
         if(!this.is_asleep) {
-            return this.name + " is awake";
+            return this.name+ " of " + getClass() + "" + " is awake";
         }
         else{
-            return this.name + " is sleeping";
+            return this.name + " of " + getClass() + "" + " is sleeping";
         }
 
     }
 
     public String roam(){
-        String result = this.name + " is roaming";
+        String result = this.name + " of " + getClass() + "" + " is roaming";
         return result;
     }
 

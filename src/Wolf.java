@@ -18,7 +18,8 @@ public class Wolf extends Canine {
 
     @Override
     public String makeNoise() {
-        String noise = "Howl";
+        String name = getName();
+        String noise = name + " of " + getClass() + "" + " is howling";
         return noise;
     }
 }

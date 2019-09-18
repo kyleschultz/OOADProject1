@@ -19,14 +19,14 @@ public class Cat extends Feline{
         int randInt = rand.nextInt(3);
         switch(randInt){
             case 0:
-                result = name + " is eating fancy feast";
+                result = name + " of " + getClass() + "" + " is eating fancy feast";
                 break;
             case 1:
-                result = name + " says prrrr";
+                result = name + " of " + getClass() + "" + " is purring";
                 break;
             case 2:
                 name = getName();
-                result = name + " is roaming";
+                result = name + " of " + getClass() + "" + " is roaming";
                 break;
             default:
                 result = "";

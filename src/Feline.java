@@ -8,15 +8,17 @@ public class Feline extends Animal {
         super(name);
     }
 
+    @Override
     public String eat() {
         String name = getName();
-        String result = name + " is eating Feline food";
+        String result = name + " of " + getClass() + "" +  " is eating Feline food";
         return result;
     }
 
     @Override
     public String makeNoise(){
-        String noise = "Meow";
+        String name = getName();
+        String noise = name + " of " + getClass() + "" + " is meowing";
         return noise;
     }
 
