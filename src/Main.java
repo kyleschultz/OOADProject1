@@ -24,11 +24,23 @@ public class Main {
     	Zoe.addAnimal(William);
     	Zoe.addAnimal(Winnie);
 
+        System.out.println("Zookeeper is waking animals.\n");
     	Zoe.wake();
+
+        System.out.println("------------------------------------");
+        System.out.println("Zookeeper is roll calling animals.\n");
     	Zoe.rollCall();
+
+        System.out.println("------------------------------------");
+        System.out.println("Zookeeper is feeding animals.\n");
     	Zoe.feed();
+
+        System.out.println("------------------------------------");
+        System.out.println("Zookeeper is letting animals roam.\n");
     	Zoe.letRoam();
 
+        System.out.println("------------------------------------");
+        System.out.println("Zookeeper is closing the zoo.\n");
     	Zoe.closeZoo();
 
     }
