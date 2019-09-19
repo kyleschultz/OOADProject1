@@ -4,6 +4,7 @@ public class Main {
 
     	Zookeeper Zoe = new Zookeeper();
 
+    	//Each subclass is polymorphically instantiated as Animal
     	Animal Frank = new Feline("Frank");
     	Animal Fiona = new Feline("Fiona");
     	Zoe.addAnimal(Frank);
@@ -25,6 +26,7 @@ public class Main {
     	Zoe.addAnimal(William);
     	Zoe.addAnimal(Winnie);
 
+    	//Call Zookeeper methods
         System.out.println("Zookeeper is waking animals.\n");
     	Zoe.wake();
 

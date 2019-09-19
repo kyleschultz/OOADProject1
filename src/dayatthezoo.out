@@ -1,0 +1,54 @@
+Zookeeper is waking animals.
+
+Frank of class Feline is awake
+Fiona of class Feline is awake
+Catthew of class Cat is awake
+Carl of class Cat is awake
+Chloe of class Canine is awake
+Cassidy of class Canine is awake
+William of class Wolf is awake
+Winnie of class Wolf is awake
+------------------------------------
+Zookeeper is roll calling animals.
+
+Frank of class Feline is meowing
+Fiona of class Feline is meowing
+Catthew of class Cat is roaming
+Carl of class Cat is purring
+Chloe of class Canine is barking
+Cassidy of class Canine is barking
+William of class Wolf is howling
+Winnie of class Wolf is howling
+------------------------------------
+Zookeeper is feeding animals.
+
+Frank of class Feline is eating Feline food
+Fiona of class Feline is eating Feline food
+Catthew of class Cat is eating fancy feast
+Carl of class Cat is eating fancy feast
+Chloe of class Canine is eating Meat
+Cassidy of class Canine is eating Meat
+William of class Wolf is eating kibble
+Winnie of class Wolf is eating kibble
+------------------------------------
+Zookeeper is letting animals roam.
+
+Frank of class Feline is roaming
+Fiona of class Feline is roaming
+Catthew of class Cat is roaming
+Carl of class Cat is purring
+Chloe of class Canine is roaming
+Cassidy of class Canine is roaming
+William of class Wolf is roaming
+Winnie of class Wolf is roaming
+------------------------------------
+Zookeeper is closing the zoo.
+
+Frank of class Feline is sleeping
+Fiona of class Feline is sleeping
+Catthew of class Cat is sleeping
+Carl of class Cat is sleeping
+Chloe of class Canine is sleeping
+Cassidy of class Canine is sleeping
+William of class Wolf is sleeping
+Winnie of class Wolf is sleeping
